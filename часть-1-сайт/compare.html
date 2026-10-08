@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Лаборатория материалов — AUREX</title>
+  <link rel="icon" href="assets/logo-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="compare">
+  <div id="header"></div>
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <div class="crumbs"><a href="index.html">Главная</a> / Лаборатория материалов</div>
+        <h1>Лаборатория <span class="gold-text">материалов</span></h1>
+        <p>Сравнивайте до четырёх материалов одновременно — механические свойства, настройки печати и цена.</p>
+      </div>
+    </section>
+
+    <section class="section" id="finder" style="padding-bottom:0">
+      <div class="wrap">
+        <div class="section-head"><div><span class="eyebrow">Подбор по задаче</span><h2>Что вы печатаете?</h2><p>Выберите цель — и мы покажем материалы, которые подходят лучше всего.</p></div></div>
+        <div class="tiles three lab finder">
+          <button class="tile lab-card find" data-find="beginner"><div class="lab-art" data-art="beginner"></div><div class="lab-body"><h3>Мои первые модели</h3><p>Прощает ошибки, не коробится, подходит любому принтеру.</p><div class="find-mats"></div><span class="lab-go">Показать материалы →</span></div></button>
+          <button class="tile lab-card find" data-find="strong"><div class="lab-art" data-art="strong"></div><div class="lab-body"><h3>Прочные механические детали</h3><p>Жёсткие, держат нагрузку и размер.</p><div class="find-mats"></div><span class="lab-go">Показать материалы →</span></div></button>
+          <button class="tile lab-card find" data-find="outdoor"><div class="lab-art" data-art="outdoor"></div><div class="lab-body"><h3>Для улицы</h3><p>Стойкость к солнцу, дождю и перепадам температур.</p><div class="find-mats"></div><span class="lab-go">Показать материалы →</span></div></button>
+          <button class="tile lab-card find" data-find="flexible"><div class="lab-art" data-art="flexible"></div><div class="lab-body"><h3>Гибкие детали</h3><p>Прокладки, накладки, чехлы и демпферы.</p><div class="find-mats"></div><span class="lab-go">Показать материалы →</span></div></button>
+          <button class="tile lab-card find" data-find="pretty"><div class="lab-art" data-art="pretty"></div><div class="lab-body"><h3>Декор и подарки</h3><p>Фактуры, которые красивы без постобработки.</p><div class="find-mats"></div><span class="lab-go">Показать материалы →</span></div></button>
+          <button class="tile lab-card find" data-find="fast"><div class="lab-art" data-art="fast"></div><div class="lab-body"><h3>Максимальная скорость</h3><p>Высокотекучие составы для быстрых принтеров.</p><div class="find-mats"></div><span class="lab-go">Показать материалы →</span></div></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="settings">
+      <div class="wrap">
+        <div class="section-head"><div><span class="eyebrow">Сравнение</span><h2>Бок о бок</h2><p>Нажимайте на материалы, чтобы добавить их в таблицу или убрать.</p></div></div>
+        <div class="cmp-pick" id="cmpPick"></div>
+        <div id="cmpOut"></div>
+      </div>
+    </section>
+  </main>
+  <div id="footer"></div>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

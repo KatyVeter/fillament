@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Поддержка — AUREX</title>
+  <link rel="icon" href="assets/logo-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="support">
+  <div id="header"></div>
+  <main class="fancy-bg">
+    <!-- декоративные кольца на фоне -->
+    <i class="ring-deco r1"></i><i class="ring-deco r2"></i><i class="ring-deco r3"></i><i class="ring-deco r4"></i>
+
+    <section class="sup-hero">
+      <div class="wrap">
+        <div class="crumbs"><a href="index.html">Главная</a> / Поддержка</div>
+        <span class="eyebrow">Центр поддержки</span>
+        <h1>Чем мы можем <span class="gold-text">помочь?</span></h1>
+        <p>Ответы на частые вопросы, условия доставки и возврата и прямая связь с нашей командой.</p>
+        <label class="sup-search">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="faqSearch" placeholder="Например: сушка, сопло, возврат, оплата…" autocomplete="off">
+        </label>
+        <div class="sup-stats">
+          <div><b class="gold-text">1 день</b><span>отвечаем на обращения</span></div>
+          <div><b class="gold-text">24 ч</b><span>до отправки заказа</span></div>
+          <div><b class="gold-text">30 дней</b><span>на возврат товара</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:24px;padding-bottom:0">
+      <div class="wrap tiles lab reveal">
+        <a class="tile lab-card" href="#faq"><div class="lab-art" data-art="faq"></div><div class="lab-body"><span class="lab-num">01</span><h3>Вопросы и ответы</h3><p>Печать, материалы и заказы.</p><span class="lab-go">Читать →</span></div></a>
+        <a class="tile lab-card" href="#shipping"><div class="lab-art" data-art="truck"></div><div class="lab-body"><span class="lab-num">02</span><h3>Доставка</h3><p>Сроки и стоимость по регионам.</p><span class="lab-go">Смотреть сроки →</span></div></a>
+        <a class="tile lab-card" href="#returns"><div class="lab-art" data-art="ret"></div><div class="lab-body"><span class="lab-num">03</span><h3>Возврат и гарантия</h3><p>Возврат в течение 30 дней.</p><span class="lab-go">Условия →</span></div></a>
+        <a class="tile lab-card" href="#wholesale"><div class="lab-art" data-art="factory"></div><div class="lab-body"><span class="lab-num">04</span><h3>Оптовым клиентам</h3><p>Реселлеры, школы и 3D-фермы.</p><span class="lab-go">Запросить цены →</span></div></a>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="wrap faq-layout">
+        <div class="faq-side reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2 class="h2">Частые <span class="gold-text">вопросы</span></h2>
+          <p class="muted" style="margin:14px 0 24px">Собрали то, о чём нас спрашивают чаще всего. Начните вводить слово в поиске выше — список отфильтруется.</p>
+          <div class="faq-cta">
+            <b>Не нашли ответ?</b>
+            <span>Напишите нам — ответим в течение одного рабочего дня.</span>
+            <a class="btn btn-gold btn-sm" href="#contact">Задать вопрос</a>
+          </div>
+        </div>
+        <div class="faq fancy reveal" id="faqList">
+          <details open><summary>Какой филамент лучше для новичка?</summary><p>PLA или PLA+. Оба печатаются при низких температурах, не требуют закрытой камеры и подходят практически любому FDM-принтеру.</p></details>
+          <details><summary>Чем PLA+ отличается от PLA?</summary><p>PLA+ модифицирован для большей ударной вязкости и лучшего спекания слоёв, поэтому детали менее хрупкие. Настройки печати почти те же.</p></details>
+          <details><summary>Что выбрать: PLA или PETG?</summary><p>PLA — для детализации и простоты печати. PETG — когда детали нужна большая ударная прочность, термо- или влагостойкость.</p></details>
+          <details><summary>Нужно ли закалённое сопло?</summary><p>Да — для филаментов с угле- и стекловолокном, светящихся и «деревянных»: они абразивные и быстро изнашивают латунные сопла.</p></details>
+          <details><summary>Подходят ли катушки для систем автоматической подачи?</summary><p>Наши картонные катушки 1 кг рассчитаны на распространённые системы автоподачи. Размеры указаны на странице каждого товара.</p></details>
+          <details><summary>Как хранить филамент?</summary><p>В герметичной упаковке с силикагелем. Если появились паутина или щелчки при печати — просушите катушку при температуре, указанной на странице товара.</p></details>
+          <details><summary>Какие способы оплаты вы принимаете?</summary><p>Основные кредитные и дебетовые карты, PayPal, Apple Pay и Google Pay. Цены можно отображать в нескольких валютах.</p></details>
+          <div class="empty hidden" id="faqEmpty">По этому запросу ничего не нашлось. <a class="gold-text" href="#contact">Напишите нам</a> — ответим лично.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="shipping">
+      <div class="wrap">
+        <div class="section-head center reveal">
+          <span class="eyebrow">Доставка</span>
+          <h2>Из Шэньчжэня — <span class="gold-text">в любую точку мира</span></h2>
+          <p>Заказы отправляются в течение 24 часов в рабочие дни. Как только посылка покинет склад, вы получите ссылку для отслеживания на email.</p>
+        </div>
+        <div class="route reveal"><span class="route-from">Шэньчжэнь</span><i class="route-line"></i><b class="route-plane">✈</b><span class="route-to">Ваш адрес</span></div>
+        <div class="regions reveal">
+          <div class="region"><small>Регион</small><h3>Азия и Океания</h3><b class="gold-text">6–10 дней</b><span>стандартная доставка</span><div class="bar"><i style="width:55%"></i></div><em>Экспресс · 3–5 дней</em></div>
+          <div class="region"><small>Регион</small><h3>Европа</h3><b class="gold-text">4–7 дней</b><span>стандартная доставка</span><div class="bar"><i style="width:40%"></i></div><em>Экспресс · 2–3 дня</em></div>
+          <div class="region"><small>Регион</small><h3>Северная Америка</h3><b class="gold-text">5–8 дней</b><span>стандартная доставка</span><div class="bar"><i style="width:48%"></i></div><em>Экспресс · 2–4 дня</em></div>
+          <div class="region"><small>Регион</small><h3>Остальной мир</h3><b class="gold-text">7–14 дней</b><span>стандартная доставка</span><div class="bar"><i style="width:80%"></i></div><em>Экспресс · 4–6 дней</em></div>
+        </div>
+        <p class="note reveal" style="margin-top:20px;text-align:center">Сроки указаны в рабочих днях и являются шаблонными — перевозчики, тарифы и сроки будут уточнены перед запуском.</p>
+      </div>
+    </section>
+
+    <section class="section" id="returns">
+      <div class="wrap">
+        <div class="section-head reveal"><div><span class="eyebrow">Возврат и гарантия</span><h2>Покупайте <span class="gold-text">спокойно</span></h2><p>Если что-то пошло не так, решаем вопрос за вас — без долгой переписки.</p></div></div>
+        <div class="tiles three lab reveal">
+          <div class="tile lab-card"><div class="lab-art" data-art="ret"></div><div class="lab-body"><h3>Возврат 30 дней</h3><p>Невскрытый товар можно вернуть в течение 30 дней после получения с полным возмещением.</p><span class="step-win">Деньги возвращаем полностью</span></div></div>
+          <div class="tile lab-card"><div class="lab-art" data-art="shield"></div><div class="lab-body"><h3>Гарантия качества</h3><p>Если катушка с дефектом — заменим или вернём деньги. Достаточно прислать фото.</p><span class="step-win">Достаточно одной фотографии</span></div></div>
+          <div class="tile lab-card"><div class="lab-art" data-art="plug"></div><div class="lab-body"><h3>Гарантия 12 месяцев</h3><p>На сушилки и другие электрические аксессуары действует годовая гарантия.</p><span class="step-win">Ремонт или замена за наш счёт</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="wholesale">
+      <div class="wrap">
+        <div class="glow-panel reveal">
+          <div class="split">
+            <div>
+              <span class="eyebrow">Опт и B2B</span>
+              <h2 class="h2">Станьте партнёром <span class="gold-text" data-brand>AUREX</span></h2>
+              <p>Оптовые цены для реселлеров, 3D-ферм, учебных заведений и производств — напрямую из Шэньчжэня.</p>
+              <div class="tiers">
+                <div><b>от 50</b><span>катушек — оптовая цена и приоритетный резерв</span></div>
+                <div><b>от 200</b><span>персональный менеджер и цвета под заказ</span></div>
+                <div><b>от 1 000</b><span>производство под вашей маркой, доставка паллетами</span></div>
+              </div>
+            </div>
+            <form class="box" data-demo="Заявка отправлена — мы свяжемся с вами.">
+              <h3>Запросить предложение</h3>
+              <div class="form-grid">
+                <label>Компания<input class="field sq" required></label>
+                <label>Страна<input class="field sq" required></label>
+                <label class="full">Рабочий email<input class="field sq" type="email" required></label>
+                <label class="full">Ориентировочный объём в месяц
+                  <select class="field sq"><option>50–200 катушек</option><option>200–1 000 катушек</option><option>более 1 000 катушек</option></select></label>
+                <label class="full">Сообщение<textarea class="field" rows="3"></textarea></label>
+                <button class="btn btn-gold full">Отправить заявку</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap split">
+        <div class="reveal">
+          <span class="eyebrow">Контакты</span>
+          <h2 class="h2">Напишите нам — <span class="gold-text">ответит человек</span></h2>
+          <p class="muted" style="margin:14px 0 24px">Отвечаем в течение одного рабочего дня. Если есть, укажите номер заказа и модель принтера — так мы поможем быстрее.</p>
+          <div class="contact-cards">
+            <div><small>Email</small><a class="gold-text" data-email href="#">hello@example.com</a></div>
+            <div><small>Часы работы</small><b>Пн–Пт, 9:00–18:00</b></div>
+            <div><small>Офис</small><b>Шэньчжэнь, Китай</b></div>
+          </div>
+        </div>
+        <form class="box reveal" data-demo="Сообщение отправлено — спасибо!">
+          <h3>Отправить сообщение</h3>
+          <div class="form-grid">
+            <label>Имя<input class="field sq" required></label>
+            <label>Email<input class="field sq" type="email" required></label>
+            <label class="full">Тема
+              <select class="field sq"><option>Заказ и доставка</option><option>Проблемы с печатью</option><option>Возврат</option><option>Другое</option></select></label>
+            <label class="full">Сообщение<textarea class="field" rows="4" required></textarea></label>
+            <button class="btn btn-gold full">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="privacy" style="padding-top:0">
+      <div class="wrap legal">
+        <details><summary>Политика конфиденциальности</summary><p>Шаблон. Итоговая политика конфиденциальности (с учётом GDPR, реквизитами компании и условиями обработки данных) будет добавлена перед запуском.</p></details>
+        <details id="terms"><summary>Условия использования</summary><p>Шаблон. Итоговые условия продажи — юридическое лицо, юрисдикция и права потребителей — будут добавлены перед запуском.</p></details>
+      </div>
+    </section>
+  </main>
+  <div id="footer"></div>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

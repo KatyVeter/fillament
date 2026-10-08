@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AUREX — премиальные филаменты для 3D-печати</title>
+  <meta name="description" content="Премиальные филаменты PLA, PETG, TPU и композиты с углеволокном. Жёсткие допуски и доставка по всему миру.">
+  <link rel="icon" href="assets/logo-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <div id="header"></div>
+
+  <main>
+    <!-- Первый экран -->
+    <section class="intro">
+      <div class="wrap">
+        <div class="hero-visual rich">
+          <svg class="orbit-svg" viewBox="0 0 400 400" aria-hidden="true">
+            <defs><linearGradient id="og" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6dc9a"/><stop offset=".5" stop-color="#c9973f"/><stop offset="1" stop-color="#f0cf85"/></linearGradient></defs>
+            <g fill="none" stroke="url(#og)">
+              <circle class="ring-ticks" cx="200" cy="200" r="192" stroke-width="6" stroke-dasharray="1.5 18.600" opacity=".55"/>
+              <circle cx="200" cy="200" r="182" stroke-width=".6" opacity=".4"/>
+              <circle class="ring-dash" cx="200" cy="200" r="152" stroke-width="1" stroke-dasharray="3 9" opacity=".7"/>
+              <circle class="ring-glow" cx="200" cy="200" r="112" stroke-width="1.6"/>
+              <path class="thread" d="M200 48C300 56 356 138 344 214C332 292 252 334 186 314C128 296 96 240 112 188"/>
+              <path class="thread t2" d="M200 352C104 342 44 262 58 186C70 118 132 76 196 84"/>
+            </g>
+            <g fill="url(#og)" class="sparks">
+              <path d="M330 78l3 9 9 3-9 3-3 9-3-9-9-3 9-3Z"/><path d="M62 118l2 6 6 2-6 2-2 6-2-6-6-2 6-2Z"/><path d="M92 318l2.500 7 7 2.500-7 2.500-2.500 7-2.500-7-7-2.500 7-2.500Z"/><path d="M318 322l2 6 6 2-6 2-2 6-2-6-6-2 6-2Z"/><path d="M200 14l2 5 5 2-5 2-2 5-2-5-5-2 5-2Z"/>
+            </g>
+          </svg>
+          <img class="logo-big" src="assets/logo-512.png" alt="Логотип AUREX">
+          <div class="orbit" id="introSpools"></div>
+        </div>
+        <div>
+          <span class="eyebrow">Шэньчжэнь · Китай</span>
+          <h2 class="intro-title"><span class="gold-text" data-brand>AUREX</span> — филаменты из мировой столицы 3D-печати</h2>
+          <p class="lead">Мы работаем в Шэньчжэне — городе, где создаётся большая часть мировой электроники и настольных 3D-принтеров. Сырьё, производство и логистика здесь находятся в шаговой доступности, поэтому мы контролируем каждую катушку от гранулы до упаковки и отправляем её напрямую вам, без цепочки посредников.</p>
+          <div class="intro-points">
+            <div><b>Прямо от производителя</b><span>Без перекупщиков и лишних наценок</span></div>
+            <div><b>Контроль каждой партии</b><span>Лазерный замер диаметра и тестовая печать</span></div>
+            <div><b>Открытость</b><span>Сертификаты, паспорта безопасности и живая поддержка</span></div>
+          </div>
+          <div class="hero-cta">
+            <a class="btn btn-gold" href="about.html">О компании</a>
+            <a class="btn btn-ghost" href="shop.html">В каталог</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero hero-photo">
+      <div class="hero-bg" id="heroBg"></div>
+      <div class="wrap">
+        <div>
+          <div class="hero-copy" id="heroCopy"></div>
+          <div class="hero-dots" id="heroDots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Преимущества -->
+    <div class="usp">
+      <div><svg viewBox="0 0 24 24"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17.5" cy="18" r="1.8"/></svg><span><b>Доставка по всему миру</b><span>Отправка в течение 24 часов</span></span></div>
+      <div><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="m9 12 2 2 4-4"/></svg><span><b>Гарантия качества</b><span>Лазерный контроль каждой партии</span></span></div>
+      <div><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 3-6.2"/><path d="M4 4v4h4"/></svg><span><b>Возврат 30 дней</b><span>Просто и без лишних вопросов</span></span></div>
+      <div><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg><span><b>Экспертная поддержка</b><span>Профили печати под ваш принтер</span></span></div>
+    </div>
+
+    <!-- Коллекции -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><span class="eyebrow">Коллекции</span><h2>Материал для каждой идеи</h2>
+            <p>От первых моделей до серийных деталей — шесть коллекций и единый стандарт качества.</p></div>
+          <a class="btn btn-ghost" href="shop.html">Весь каталог</a>
+        </div>
+        <div class="cats reveal" id="cats"></div>
+      </div>
+    </section>
+
+    <!-- Хиты продаж -->
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><span class="eyebrow">Хиты продаж</span><h2>Чем печатают чаще всего</h2></div>
+          <a class="btn btn-ghost" href="shop.html">Смотреть все</a>
+        </div>
+        <div class="grid reveal" id="bestsellers"></div>
+      </div>
+    </section>
+
+    <!-- О бренде -->
+    <section class="section">
+      <div class="wrap split">
+        <div class="reveal">
+          <span class="eyebrow">О бренде</span>
+          <h2 class="h2">Для тех, кто замечает <span class="gold-text">детали</span></h2>
+          <p>Всё началось с простого раздражения: филамент, который на одной неделе печатает идеально, а на следующей подводит. Поэтому мы построили бренд вокруг стабильности — тот же диаметр, тот же цвет, тот же результат на каждой катушке.</p>
+          <ul class="ticks">
+            <li>Только первичное сырьё, без вторички</li>
+            <li>Двухосевой лазерный контроль диаметра на каждом метре</li>
+            <li>Сушка, вакуумная упаковка и силикагель</li>
+            <li>Картонные катушки и упаковка без пластика</li>
+          </ul>
+          <a class="btn btn-gold" href="about.html" style="margin-top:22px">Наша история</a>
+        </div>
+        <div class="kpis reveal">
+          <div class="kpi"><b class="gold-text">99,2%</b><span>успешных первых слоёв в нашей тестовой лаборатории</span></div>
+          <div class="kpi"><b class="gold-text">24 ч</b><span>среднее время отправки с региональных складов</span></div>
+          <div class="kpi"><b class="gold-text">4,8★</b><span>средняя оценка по проверенным отзывам покупателей</span></div>
+          <div class="kpi"><b class="gold-text">0</b><span>запутываний — механическая послойная намотка каждой катушки</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Лаборатория материалов -->
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-head center reveal">
+          <span class="eyebrow">Лаборатория материалов</span>
+          <h2>Не знаете, какой филамент выбрать?</h2>
+          <p>Сравнивайте материалы, берите готовые настройки печати и подбирайте пластик под задачу.</p>
+        </div>
+        <div class="tiles lab reveal">
+          <a class="tile lab-card" href="compare.html#settings"><div class="lab-art" data-art="compare"></div><div class="lab-body"><span class="lab-num">01</span><h3>Сравнение материалов</h3><p>Прочность, термостойкость, гибкость и простота печати — в одной таблице.</p><span class="lab-go">Сравнить →</span></div></a>
+          <a class="tile lab-card" href="compare.html#finder"><div class="lab-art" data-art="finder"></div><div class="lab-body"><span class="lab-num">02</span><h3>Подбор по задаче</h3><p>Расскажите, что печатаете, — и получите рекомендацию.</p><span class="lab-go">Подобрать →</span></div></a>
+          <a class="tile lab-card" href="compare.html#settings"><div class="lab-art" data-art="settings"></div><div class="lab-body"><span class="lab-num">03</span><h3>Настройки печати</h3><p>Сопло, стол, скорость и сушка для каждого нашего филамента.</p><span class="lab-go">Открыть →</span></div></a>
+          <a class="tile lab-card" href="support.html#faq"><div class="lab-art" data-art="knowledge"></div><div class="lab-body"><span class="lab-num">04</span><h3>База знаний</h3><p>Гиды и ответы на самые частые вопросы.</p><span class="lab-go">Читать →</span></div></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Применение -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal"><div><span class="eyebrow">Применение</span><h2>Что можно напечатать</h2></div></div>
+        <div class="tiles reveal">
+          <a class="tile use" href="shop.html?cat=aesthetic"><img src="assets/use-decor.jpg" alt="Напечатанные вазы, светильники и декор" loading="lazy"><div><h3>Арт и декор</h3><p>Вазы, светильники и скульптуры в шёлковых, матовых и мраморных фактурах.</p></div></a>
+          <a class="tile use" href="shop.html?cat=general"><img src="assets/use-mini.jpg" alt="Напечатанные миниатюры: замок, фигурки героев, игровые кубики" loading="lazy"><div><h3>Миниатюры и фигурки</h3><p>Тонкая детализация и чистые нависания для настольных игр и коллекций.</p></div></a>
+          <a class="tile use" href="shop.html?cat=engineering"><img src="assets/use-eng.jpg" alt="Напечатанные кронштейны, шестерни и корпуса" loading="lazy"><div><h3>Инженерия и механика</h3><p>Оснастка, кронштейны, шестерни и корпуса, которые держат размер под нагрузкой.</p></div></a>
+          <a class="tile use" href="shop.html?cat=functional"><img src="assets/use-toys.jpg" alt="Напечатанные игрушки, дрон и радиоуправляемые модели" loading="lazy"><div><h3>Игрушки, дроны и RC</h3><p>Гибкие, ударопрочные и всепогодные детали.</p></div></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Сертификаты -->
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-head center reveal">
+          <span class="eyebrow">Сертификаты</span>
+          <h2>Проверено и сертифицировано</h2>
+          <p>Наши материалы производятся по международным стандартам качества, безопасности и экологии.</p>
+        </div>
+        <div class="certs reveal">
+          <div class="cert">CE<small>Соответствие</small></div><div class="cert">RoHS<small>Без опасных веществ</small></div>
+          <div class="cert">REACH<small>Хим. безопасность</small></div><div class="cert">ISO 9001<small>Качество</small></div>
+          <div class="cert">ISO 14001<small>Экология</small></div><div class="cert">MSDS<small>Паспорт безопасности</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="section reviews-sec">
+      <div class="wrap">
+        <div class="section-head center reveal"><span class="eyebrow">Отзывы</span><h2>Что говорят мейкеры</h2></div>
+        <div class="rev-view reveal"><div class="rev-track" id="reviews"></div></div>
+        <div class="hero-dots rev-dots" id="revDots"></div>
+      </div>
+    </section>
+
+    <!-- Блог -->
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-head reveal"><div><span class="eyebrow">Журнал</span><h2>Гиды и советы по печати</h2></div></div>
+        <div class="tiles three reveal" id="posts"></div>
+      </div>
+    </section>
+
+    <!-- Рассылка -->
+    <section class="section">
+      <div class="wrap">
+        <div class="newsletter reveal">
+          <span class="eyebrow">Будьте в курсе</span>
+          <h2 class="h2">Скидка 10% на первый заказ</h2>
+          <p class="muted" style="margin-top:10px">Новые цвета, поступления и профили печати — один-два раза в месяц, без спама.</p>
+          <form data-demo="Спасибо за подписку!"><input type="email" required placeholder="Ваш email"><button class="btn btn-gold">Подписаться</button></form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
